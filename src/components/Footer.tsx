@@ -12,29 +12,13 @@ const Footer = () => {
               title="Company"
               className="inline-flex items-center"
             >
-              <svg
-                className="w-8 text-deep-purple-accent-400"
-                viewBox="0 0 24 24"
-                stroke-linejoin="round"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-miterlimit="10"
-                stroke="currentColor"
-                fill="none"
-              >
-                <rect x="3" y="1" width="7" height="12"></rect>
-                <rect x="3" y="17" width="7" height="6"></rect>
-                <rect x="14" y="1" width="7" height="6"></rect>
-                <rect x="14" y="11" width="7" height="12"></rect>
-              </svg>
-              <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                Company
+              <span className="text-xl font-bold tracking-wide text-gray-800 uppercase">
+                Crest-On
               </span>
             </a>
             <div className="mt-6 lg:max-w-sm">
               <p className="text-sm text-gray-800">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam.
+              Helping you find your next home with ease. We bring together buyers, sellers, and properties in a seamless experience.
               </p>
               <p className="mt-4 text-sm text-gray-800">
                 Eaque ipsa quae ab illo inventore veritatis et quasi architecto
@@ -67,7 +51,7 @@ const Footer = () => {
                 title="Our email"
                 className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                info@lorem.mail
+                info@creston.com
               </a>
             </div>
             <div className="flex">
@@ -128,7 +112,7 @@ const Footer = () => {
 
         <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
           <p className="text-sm text-gray-600">
-            © Copyright 2020 Lorem Inc. All rights reserved.
+          © 2025 Crest-On Real Estate. All rights reserved.
           </p>
           <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>
