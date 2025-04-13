@@ -1,54 +1,59 @@
-# React + TypeScript + Vite
+# 🏡 Crest-On – Modern Real Estate Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Crest-On** is a sleek, modern real estate web application designed for ease of property discovery, browsing, and lead conversion. Built with React, TypeScript, and Tailwind CSS, Crest-On delivers a responsive and elegant user experience suitable for buyers, renters, and property agents.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Search & Filter Listings** – Easily find homes based on location, price, type, and more.
+- 🏘️ **Buy or Rent Options** – Seamless experience for both buyers and renters.
+- 🧠 **Why Choose Us Section** – Highlights the value proposition with clean line illustrations.
+- ⭐ **Testimonials Carousel** – Real reviews with slick slider integration.
+- 📱 **Fully Responsive** – Optimized for mobile, tablet, and desktop.
+- ✨ **Modern UI/UX** – Minimalist design using Tailwind CSS and Poppins font.
+- ⚙️ **Ready for Backend Integration** – Built with future Django REST API support in mind.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Frontend
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Slick](https://react-slick.neostack.com/) – Testimonials slider
+- [React Icons](https://react-icons.github.io/react-icons/) *(optional)*
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Backend (optional)
+- [Django](https://www.djangoproject.com/)
+- [Django REST Framework](https://www.django-rest-framework.org/)
+- [PostgreSQL](https://www.postgresql.org/) or [Supabase](https://supabase.com/)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+## 📁 Folder Structure (Frontend)
+
+
+---
+
+## ⚙️ Setup Instructions
+
+### Prerequisites
+
+- Node.js (v18+ recommended)
+- npm or yarn
+- (Optional) Python & Django backend setup
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/crest-on.git
+cd crest-on
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev

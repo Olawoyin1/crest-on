@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import {  FaUserTie, FaBuilding, FaThumbsUp } from "react-icons/fa";
 import { HiOutlineHomeModern } from "react-icons/hi2";
 

@@ -1,4 +1,3 @@
-import React from 'react'
 import { GrHomeRounded } from "react-icons/gr";
 import { HiOutlineUsers } from "react-icons/hi";
 import { MdOutlineCalendarToday } from "react-icons/md";
