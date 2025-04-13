@@ -15,10 +15,10 @@ const Hero = () => {
     >
         <Navbar />
       <div className="container h-full mx-auto">
-        <div className="container h-full flex items-center">
+        <div className=" h-full flex items-center">
           <div className="max-w-2xl mx-auto -mt-30 flex flex-col gap-3 text-center">
             <p className="border border-b-cyan-400 rounded-4xl w-fit mx-auto px-4 py-2 headings ">LET US GUIDE YOUR HOME</p>
-            <h1 className="t text-6xl font-extrabold">
+            <h1 className="text-5xl md:text-6xl font-extrabold">
               Find your dream property with Crest-On
             </h1>
             <p className="text-sm text-gray-900">

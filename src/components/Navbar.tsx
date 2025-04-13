@@ -1,3 +1,4 @@
+import { RxHamburgerMenu } from "react-icons/rx";
 const Navbar = () => {
   return (
     <div className="main-nav">
@@ -39,6 +40,8 @@ const Navbar = () => {
             </ul>
 
             {/* Contact / Call to Action */}
+            <div className="flex items-center gap-2">
+
             <div className="flex flex-col  text-sm text-gray-600">
               <span className="whitespace-nowrap">📞 +123 456 7890</span>
               <a
@@ -48,12 +51,13 @@ const Navbar = () => {
                 ✉️ info@creston.com
               </a>
             </div>
+              {/* Mobile Menu Placeholder */}
+              <div className="md:hidden">
+                {/* Add a hamburger menu here later */}
+                <button className="text-gray-600 focus:outline-none"><RxHamburgerMenu size={24}/></button>
+              </div>
+              </div>
 
-            {/* Mobile Menu Placeholder */}
-            <div className="md:hidden">
-              {/* Add a hamburger menu here later */}
-              <button className="text-gray-600 focus:outline-none">☰</button>
-            </div>
           </div>
         </nav>
       </div>
