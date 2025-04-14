@@ -70,6 +70,7 @@
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoClose } from "react-icons/io5";
+import { Link } from "react-router";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -77,21 +78,22 @@ const Navbar = () => {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <header className="main-nav w-full shadow-sm bg-white relative z-50">
-      <nav className="h-[60px] w-full max-w-7xl mx-auto px-4 md:px-6">
+    <header className="main-nav w-ful relative z-50">
+      <nav className="h-[60px] container mx-auto">
         <div className="h-full flex items-center justify-between">
           {/* Logo */}
-          <div className="text-xl font-bold text-blue-600 tracking-tight">
-            Crest-On
-          </div>
+          <Link to='/' className="text-xl font-bold flex gap-1 tracking-tight">
+            <img src="../../Images/logo.png" className="w-7" alt="" />
+            <h3>Crest-On</h3>
+          </Link>
 
           {/* Desktop Navigation */}
           <ul className="hidden md:flex space-x-6 text-gray-700 font-medium text-sm">
-            <li><a href="/" className="hover:text-blue-600 transition">Home</a></li>
-            <li><a href="/listings" className="hover:text-blue-600 transition">Listings</a></li>
-            <li><a href="/agents" className="hover:text-blue-600 transition">Agents</a></li>
-            <li><a href="/about" className="hover:text-blue-600 transition">About</a></li>
-            <li><a href="/contact" className="hover:text-blue-600 transition">Contact</a></li>
+            <li><a href="/" className="hover:text-blue-900 transition">Home</a></li>
+            <li><a href="/listings" className="hover:text-blue-900 transition">Listings</a></li>
+            <li><a href="/agents" className="hover:text-blue-900 transition">Agents</a></li>
+            <li><a href="/about" className="hover:text-blue-900 transition">About</a></li>
+            <li><a href="/contact" className="hover:text-blue-900 transition">Contact</a></li>
           </ul>
 
           {/* Contact info - hidden on small screens */}
@@ -118,7 +120,7 @@ const Navbar = () => {
       {menuOpen && (
         <div
           onClick={toggleMenu}
-          className="fixed inset-0 bg-black bg-opacity-30 z-40"
+          className="fixed inset-0 bg-opacity-30 z-40"
         />
       )}
 

@@ -1,21 +1,17 @@
 // import React from 'react'
 
+import { Link } from "react-router"
+
 const Footer = () => {
   return (
     <footer className='py-10'>     
       <div className=" container px-4 mx-auto  md:px-24 lg:px-0">
         <div className="grid gap-7 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2 ">
-            <a
-              href="/"
-              aria-label="Go home"
-              title="Company"
-              className="inline-flex items-center"
-            >
-              <span className="text-xl font-bold tracking-wide text-gray-800 uppercase">
-                Crest-On
-              </span>
-            </a>
+          <Link to='/' className="text-xl font-bold flex gap-1 tracking-tight">
+            <img src="../../Images/logo.png" className="w-7" alt="" />
+            <h3>Crest-On</h3>
+          </Link>
             <div className="mt-6 lg:max-w-sm">
               <p className="text-sm text-gray-800">
               Helping you find your next home with ease. We bring together buyers, sellers, and properties in a seamless experience.

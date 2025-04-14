@@ -8,14 +8,30 @@ import WhyUs from '../components/WhyUs'
 import { toast } from 'sonner'
 
 const Home = () => {
-  useEffect(() => {
-    toast('🏡 Welcome to Crest-On', {
-      id: 'home-toast',
-      description: 'Find your dream home with us today.',
-      duration: 4000,
-    });
+  // useEffect(() => {
+  //   toast('🏡 Welcome to Crest-On', {
+  //     id: 'home-toast',
+  //     description: 'Find your dream home with us today.',
+  //     duration: 4000,
+  //   });
 
     
+  // }, []);
+
+
+  useEffect(() => {
+    // Only show the toast once per page load
+    const alreadyShown = sessionStorage.getItem("welcomeToastShown");
+
+
+    if (!alreadyShown) {
+      toast('🏡 Welcome to Crest-On', {
+        id: 'home-toast',
+        description: 'Find your dream home with us today.',
+        duration: 4000,
+      });
+      sessionStorage.setItem("welcomeToastShown", "true");
+    }
   }, []);
 
   return (
