@@ -1,27 +1,25 @@
-// import React from "react";
-import {  FaUserTie, FaBuilding, FaThumbsUp } from "react-icons/fa";
-import { HiOutlineHomeModern } from "react-icons/hi2";
+
 
 const reasons = [
   {
     title: "Find Your Future Home",
     description: "Browse thousands of listings to find a place that feels just right.",
-    icon: <HiOutlineHomeModern className=" text-3xl mx-auto" />
+    icon: '../../Images/house.png'
   },
   {
     title: "Experienced Agents",
     description: "Work with knowledgeable agents who understand your needs.",
-    icon: <FaUserTie className=" text-3xl mx-auto" />,
+    icon: '../../Images/seller.png'
   },
   {
     title: "Buy or Rent with Ease",
     description: "We simplify the process of buying or renting your next property.",
-    icon: <FaBuilding className="text-3xl mx-auto" />,
+    icon: '../../Images/loan.png'
   },
   {
     title: "Trusted by Thousands",
     description: "Join a community that trusts Crest-On to find the right place.",
-    icon: <FaThumbsUp className="text-3xl mx-auto" />,
+    icon: '../../Images/shield.png'
   },
 ];
 
@@ -39,7 +37,7 @@ const WhyUs = () => {
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {reasons.map((item, index) => (
             <div key={index} className="text-center">
-              {item.icon}
+              <img src={item.icon} className="w-10 mx-auto" alt="" />
               <h3 className="mt-4 font-semibold text-lg text-gray-800">{item.title}</h3>
               <p className="text-sm text-gray-600 mt-2">{item.description}</p>
             </div>

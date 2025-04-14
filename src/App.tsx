@@ -12,6 +12,10 @@ import Home from "./pages/Home";
 import Services from "./pages/Services";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Listings from "./pages/Listings";
+import FloatingWhatsApp from "./components/FloatingWhatsapp";
+import Agents from "./pages/Agents";
+import { Toaster } from 'sonner';
 
 
 function App() {
@@ -24,12 +28,18 @@ function App() {
   
           <Route path="*" element={<ErrorPage />} />
   
+          <Route path="/listings" element={<Listings />} />
+          <Route path="/agents" element={<Agents />} />
           <Route path="services" element={<Services />} />
         </Route>
         )
       )
-  return (
+      return (
+        <>
+        <Toaster position="top-right" expand={false} richColors />
     <RouterProvider router={main} />
+        <FloatingWhatsApp />
+    </>
   );
 }
 
