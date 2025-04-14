@@ -7,7 +7,7 @@ import { AiOutlineMessage } from "react-icons/ai";
 
 const FloatingWhatsApp = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const phoneNumber = "15551234567"; // Replace with your actual WhatsApp number
+  const phoneNumber = "8168028145"; // Replace with your actual WhatsApp number
 
   const handleWhatsAppClick = () => {
     window.open(`https://wa.me/${phoneNumber}`, "_blank");

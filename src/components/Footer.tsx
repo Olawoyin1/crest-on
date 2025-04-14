@@ -1,5 +1,5 @@
 import { Link } from "react-router"
-import { FaXTwitter, FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa6";
+import { FaXTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -67,12 +67,7 @@ const Footer = () => {
               Connect With Us
             </span>
             <div className="flex items-center mt-1 space-x-3">
-              <a
-                href="https://www.facebook.com"
-                className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
-              >
-                <FaFacebookF className="h-5" />
-              </a>
+              
               <a
                 href="https://twitter.com"
                 className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
