@@ -81,7 +81,7 @@ const Listings = () => {
   const [viewType, setViewType] = useState<'grid' | 'list'>('grid');
   const [priceRange, setPriceRange] = useState<[number, number]>([0, 1000000]);
   const [bedrooms, setBedrooms] = useState<number | null>(null);
-  const [propertyType, setPropertyType] = useState<string | null>(null);
+  const [_propertyType, setPropertyType] = useState<string | null>(null);
   const [purpose, setPurpose] = useState<'buy' | 'rent' | null>(null);
   const [searchTerm, setSearchTerm] = useState<string>('');
 
