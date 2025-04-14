@@ -21,7 +21,7 @@ const FloatingWhatsApp = () => {
             <h3 className="font-medium">Chat with us</h3>
             <button 
               onClick={() => setIsOpen(false)}
-              className="text-gray-500 hover:text-gray-700"
+              className="text-gray-500  hover:text-gray-700"
             >
               <X size={18} />
             </button>
@@ -31,7 +31,7 @@ const FloatingWhatsApp = () => {
           </p>
           <button
             onClick={handleWhatsAppClick}
-            className="w-full bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded flex items-center justify-center"
+            className="w-full bg-green-500 hover:bg-green-800 cursor-pointer text-white py-2 px-4 rounded flex items-center justify-center text-sm"
           >
             <AiOutlineMessage size={18} className="mr-2" />
             Start Chat

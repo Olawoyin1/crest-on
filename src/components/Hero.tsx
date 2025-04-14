@@ -10,14 +10,14 @@ const Hero = () => {
       className="h-[85vh] bg-cover bg-center"
       style={{
         backgroundImage:
-          'url("")',
+          'url("https://img.freepik.com/free-vector/modern-3d-city-background_52683-30328.jpg?ga=GA1.1.1092135121.1738813692&semt=ais_hybrid&w=740")',
       }}
     >
         <Navbar />
       <div className="container h-full mx-auto">
         <div className=" h-full flex items-center">
           <div className="max-w-2xl mx-auto -mt-30 flex flex-col gap-3 text-center">
-            <p className="border border-b-cyan-400 rounded-4xl w-fit mx-auto px-4 py-2 headings ">LET US GUIDE YOUR HOME</p>
+            <p className="border border-b-cyan-400 rounded-4xl w-fit mx-auto px-4 py-2 font-medium headings ">LET US GUIDE YOUR HOME</p>
             <h1 className="text-5xl md:text-6xl font-extrabold">
               Find your dream property with Crest-On
             </h1>

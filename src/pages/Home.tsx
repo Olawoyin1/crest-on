@@ -6,6 +6,7 @@ import SearchComponent from '../components/SearchComponent'
 import Testimonials from '../components/Testimonials'
 import WhyUs from '../components/WhyUs'
 import { toast } from 'sonner'
+import Services from './Services'
 
 const Home = () => {
   // useEffect(() => {
@@ -42,6 +43,7 @@ const Home = () => {
         </div>
         <FeaturedProperties />
         <WhyUs />
+        <Services />
         <Testimonials />
 
 
