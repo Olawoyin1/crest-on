@@ -16,6 +16,7 @@ import Listings from "./pages/Listings";
 import FloatingWhatsApp from "./components/FloatingWhatsapp";
 import Agents from "./pages/Agents";
 import { Toaster } from 'sonner';
+import About from "./pages/About";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
   
           <Route path="*" element={<ErrorPage />} />
   
+          <Route path="/about" element={<About />} />
           <Route path="/listings" element={<Listings />} />
           <Route path="/agents" element={<Agents />} />
           <Route path="services" element={<Services />} />

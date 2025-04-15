@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="sm:col-span-2">
             <Link to='/' className="text-xl font-bold flex gap-1 tracking-tight">
               <img src="../../Images/logo.png" className="w-7" alt="Crest-On Logo" />
-              <h3>Crest-On</h3>
+              <h3>Crest-Homes</h3>
             </Link>
             <div className="mt-6 lg:max-w-sm">
               <p className="text-sm text-gray-800">
@@ -22,13 +22,13 @@ const Footer = () => {
           </div>
 
           <div className="space-y-2 text-sm">
-            <p className="text-base font-bold tracking-wide text-gray-900">
+            <span className="text-base  font-bold tracking-wide text-gray-900">
               Contact Us
-            </p>
-            <div className="flex">
+            </span>
+            <div className="flex mt-3">
               <p className="mr-1 text-gray-800">Phone:</p>
               <a
-                href="tel:850-123-5021"
+                href="tel:020-3222-5352"
                 aria-label="Our phone"
                 title="Our phone"
                 className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
@@ -44,7 +44,7 @@ const Footer = () => {
                 title="Our email"
                 className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                info@creston.com
+                info@cresthomes.com
               </a>
             </div>
             <div className="flex">
@@ -57,7 +57,7 @@ const Footer = () => {
                 title="Our address"
                 className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                312 Lovely Street, NY
+               249 WICK ROAD E9 5DG
               </a>
             </div>
           </div>
@@ -66,7 +66,7 @@ const Footer = () => {
             <span className="text-base font-bold tracking-wide text-gray-900">
               Connect With Us
             </span>
-            <div className="flex items-center mt-1 space-x-3">
+            <div className="flex items-center mt-3 space-x-3">
               
               <a
                 href="https://twitter.com"
@@ -95,7 +95,7 @@ const Footer = () => {
 
         <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
           <p className="text-sm text-gray-600">
-            © 2025 Crest-On Real Estate. All rights reserved.
+            © 2025 Crest-Homes Estate Agent Ltd. All rights reserved.
           </p>
           <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>

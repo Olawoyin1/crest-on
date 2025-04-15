@@ -32,12 +32,12 @@ const sliderSettings = {
 
 const Testimonials = () => {
   return (
-    <section className="py-20">
+    <section className="py-20 bg-gray-300/8">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div>
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">
+            <h2 className="text-3xl headings font-bold text-gray-800 mb-4">
               What Our Customers Are Saying
             </h2>
             <p className="text-gray-600 mb-6">
@@ -59,7 +59,7 @@ const Testimonials = () => {
           <div>
             <Slider {...sliderSettings}>
               {testimonials.map((testimonial, index) => (
-                <div key={index} className="bg-white p-6 rounded-lg border border-b-cyan-400">
+                <div key={index} className="bg-white p-6 rounded-lg">
                   <img
                     src={testimonial.image}
                     alt={testimonial.name}

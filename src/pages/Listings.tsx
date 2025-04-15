@@ -10,71 +10,72 @@ import { toast } from 'sonner';
 const allProperties: PropertyData[] = [
   {
     id: 1,
-    title: "Modern Apartment with City View",
-    price: 350000,
+    title: "Modern Apartment with River Thames View",
+    price: 675000,
     imageUrl: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
-    location: "Downtown, New York",
+    location: "Canary Wharf, London",
     bedrooms: 2,
     bathrooms: 2,
-    area: 1200,
+    area: 950,
     type: "buy"
   },
   {
     id: 2,
-    title: "Luxury Villa with Pool",
-    price: 5000,
+    title: "Luxury Countryside Villa with Garden",
+    price: 3500,
     imageUrl: "https://images.unsplash.com/photo-1613490493576-7fde63acd811",
-    location: "Beverly Hills, Los Angeles",
+    location: "Chipping Norton, Cotswolds",
     bedrooms: 4,
     bathrooms: 3,
-    area: 3200,
+    area: 2800,
     type: "rent"
   },
   {
     id: 3,
-    title: "Cozy Family Home",
+    title: "Charming 3-Bed Semi-Detached Home",
     price: 425000,
     imageUrl: "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83",
-    location: "Suburbia, Seattle",
+    location: "Headingley, Leeds",
     bedrooms: 3,
     bathrooms: 2,
-    area: 1800,
+    area: 1500,
     type: "buy"
   },
   {
     id: 4,
-    title: "Penthouse with Terrace",
-    price: 2500,
+    title: "Stylish City Centre Penthouse",
+    price: 2200,
     imageUrl: "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
-    location: "Manhattan, New York",
-    bedrooms: 3,
+    location: "Northern Quarter, Manchester",
+    bedrooms: 2,
     bathrooms: 2,
-    area: 1600,
+    area: 1100,
     type: "rent"
   },
   {
     id: 5,
-    title: "Renovated Historic Building",
-    price: 620000,
+    title: "Grade II Listed Townhouse",
+    price: 925000,
     imageUrl: "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6",
-    location: "Cambridge, Boston",
+    location: "Clifton, Bristol",
     bedrooms: 5,
     bathrooms: 3,
-    area: 3600,
+    area: 3100,
     type: "buy"
   },
   {
     id: 6,
-    title: "Contemporary Studio",
-    price: 1200,
+    title: "Contemporary Studio in Creative Hub",
+    price: 1150,
     imageUrl: "https://images.unsplash.com/photo-1531835551805-16d864c8d311",
-    location: "SoHo, New York",
+    location: "Jewellery Quarter, Birmingham",
     bedrooms: 1,
     bathrooms: 1,
-    area: 800,
+    area: 600,
     type: "rent"
   }
 ];
+
 
 const Listings = () => {
   const location = useLocation();
@@ -134,7 +135,7 @@ const Listings = () => {
     <>
       <Navbar />
       <main className="container py-10">
-        <h1 className="text-3xl font-semibold mb-6">Browse Properties</h1>
+        <h1 className="text-3xl headings font-semibold mb-6">Browse Properties</h1>
 
         {/* Search */}
         <div className="relative mb-8">

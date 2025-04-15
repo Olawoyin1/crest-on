@@ -95,7 +95,7 @@ const SearchComponent = () => {
         
         {/* Search Button */}
         <div className="flex items-end">
-          <button type="submit" className="w-full border bg-[#1f4b43] text-white border-gray-300 text-sm hover:bg-cyan-950 hover:text-white transition cursor-pointer h-10 bg-primary hover:bg-primary/90 flex justify-center items-center space-x-1">
+          <button type="submit" className="w-full border bg-blue-800 text-white border-gray-300 text-sm hover:bg-cyan-950 hover:text-white transition cursor-pointer h-10 bg-primary hover:bg-primary/90 flex justify-center items-center space-x-1">
             {/* <Search size={18} /> */}
             <span>Search</span>
           </button>
