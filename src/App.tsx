@@ -18,7 +18,6 @@ import Agents from "./pages/Agents";
 import { Toaster } from 'sonner';
 import About from "./pages/About";
 
-
 function App() {
   
   
