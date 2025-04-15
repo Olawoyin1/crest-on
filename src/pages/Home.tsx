@@ -7,25 +7,16 @@ import Testimonials from '../components/Testimonials'
 import WhyUs from '../components/WhyUs'
 import { toast } from 'sonner'
 import Services from './Services'
+import Intro from '../components/Intro'
 
 const Home = () => {
-  // useEffect(() => {
-  //   toast('🏡 Welcome to Crest-On', {
-  //     id: 'home-toast',
-  //     description: 'Find your dream home with us today.',
-  //     duration: 4000,
-  //   });
-
-    
-  // }, []);
-
 
   useEffect(() => {
-    // Only show the toast once per page load
+    const isPageRefresh = window.performance?.navigation?.type === 1;
+
     const alreadyShown = sessionStorage.getItem("welcomeToastShown");
 
-
-    if (!alreadyShown) {
+    if (isPageRefresh && alreadyShown) {
       toast('🏡 Welcome to Crest-On', {
         id: 'home-toast',
         description: 'Find your dream home with us today.',
@@ -33,7 +24,10 @@ const Home = () => {
       });
       sessionStorage.setItem("welcomeToastShown", "true");
     }
+
+    console.log("isPageRefresh:", isPageRefresh, "alreadyShown:", alreadyShown);
   }, []);
+
 
   return (
     <div>
@@ -41,6 +35,7 @@ const Home = () => {
         <div className="container-custom px-7">
           <SearchComponent />
         </div>
+        <Intro />
         <FeaturedProperties />
         <WhyUs />
         <Services />

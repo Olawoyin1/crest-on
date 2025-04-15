@@ -19,10 +19,10 @@ const Hero = () => {
         <Navbar />
       <div className="container h-full mx-auto">
         <div className=" h-full flex items-center">
-          <div className="max-w-2xl mx-auto -mt-30 flex flex-col gap-3 text-center">
+          <div className="max-w-3xl mx-auto -mt-30 flex flex-col gap-3 text-center">
             <p className="border border-blue-400 rounded-4xl w-fit mx-auto px-4 py-2 font-medium headings ">LET US GUIDE YOUR HOME</p>
             <h1 className="text-5xl md:text-6xl font-extrabold">
-              Find your dream property with Crest-On
+              Find your dream property with Crest Homes
             </h1>
             <p className="text-sm text-gray-900">
               We connect you to the finest properties in the most sought-after
