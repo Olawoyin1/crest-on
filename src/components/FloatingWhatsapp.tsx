@@ -31,7 +31,7 @@ const FloatingWhatsApp = () => {
           </p>
           <button
             onClick={handleWhatsAppClick}
-            className="w-full bg-green-500 hover:bg-green-800 cursor-pointer text-white py-2 px-4 rounded flex items-center justify-center text-sm"
+            className="w-full bg-blue-800 hover:bg-blue-500 cursor-pointer text-white py-2 px-4 rounded flex items-center justify-center text-sm"
           >
             <AiOutlineMessage size={18} className="mr-2" />
             Start Chat
@@ -40,8 +40,8 @@ const FloatingWhatsApp = () => {
       )}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className={`flex items-center justify-center w-14 h-14 bg-green-900 rounded-full shadow-lg focus:outline-none transition-colors",
-          ${isOpen} ? "bg-red-500 hover:bg-red-600" : "bg-green-500 hover:bg-green-600`}
+        className={`flex items-center justify-center w-14 h-14 bg-blue-900 rounded-full shadow-lg focus:outline-none transition-colors",
+          ${isOpen} ? "bg-red-500 hover:bg-red-600" : "bg-green-500 hover:bg-blue-600`}
       >
         {isOpen ? (
           <X size={24} className="text-white" />
