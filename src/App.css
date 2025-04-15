@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+img{
+    max-width: 100%;
+}
+
 p{
     font-size: 13px;
 }
