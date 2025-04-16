@@ -40,10 +40,10 @@ export default function About() {
         
         <div className="container py-10 mx-auto">
             <div className="md:flex gap-10">
-                <div className="flex-1/3 flex-shrink-0">
-                    <img src="../../Images/crestt.jpeg"  className="object-cover w-full h-fit md:object-contain" alt="" />
+                <div className="flex-2/5 flex-shrink-0">
+                    <img src="../../Images/crestt.jpeg"  className="object-cover w-full h-100" alt="" />
                 </div>
-                <div className="flex flex-col flex-2/3 gap-3 mt-10 md:mt-0">
+                <div className="flex flex-col flex-3/5 gap-3 mt-10 md:mt-0">
                     <h3 className="font-extrabold text-3xl headings"><span className="text-blue-900">CREST HOMES</span> <br />Where Property Meets Possibility</h3>
 
                     <p className="text-gray-500">Founded in 2011, Crest Homes is a trusted name in the UK property market, dedicated to helping individuals and families find their perfect homes and investment properties. With over a decade of experience, we specialize in residential, commercial, and strategic property management, offering tailored solutions that meet the diverse needs of our clients. <br /> <br />
@@ -92,7 +92,7 @@ export default function About() {
            <img
            src="../../Images/crest.jpeg"
            alt="FAQ"
-           className="object-cover w-full h-100"
+           className="object-cover w-full h-120"
            />
        </div>
         </div>

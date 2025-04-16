@@ -6,7 +6,7 @@ const Intro = () => {
         <div className="container">
             <div className="md:flex gap-10">
                 <div className="flex-1/3 flex-shrink-0">
-                    <img src="../../Images/crestt.jpeg"  className="object-cover w-full h-fit md:object-contain" alt="" />
+                    <img src="../../Images/crestt.jpeg"  className="object-cover w-full" alt="" />
                 </div>
                 <div className="flex flex-col flex-2/3 gap-3 mt-10 md:mt-0">
                     <h4 className="font-semibold uppercase  text-blue-900 border-b text-md">About Us</h4>
