@@ -29,12 +29,12 @@ const Navbar = () => {
 
           {/* Contact info - hidden on small screens */}
           <div className="hidden lg:flex flex-col text-sm text-gray-600 leading-tight">
-            <span className="whitespace-nowrap">📞 +123 456 7890</span>
+            <span className="whitespace-nowrap">📞 +850-123-5021</span>
             <a
               href="mailto:info@creston.com"
               className="hover:text-blue-600 transition"
             >
-              ✉️ info@creston.com
+              ✉️ info@cresthomes.com
             </a>
           </div>
 
@@ -73,6 +73,15 @@ const Navbar = () => {
           <li><a href="/agents" onClick={toggleMenu}>Agents</a></li>
           <li><a href="/about" onClick={toggleMenu}>About</a></li>
           <li><a href="/" onClick={toggleMenu}>Contact</a></li>
+          <div className="flex flex-col text-sm text-gray-600 leading-tight">
+            <span className="whitespace-nowrap">📞 +850-123-5021</span>
+            <a
+              href="mailto:info@cresthomes.com"
+              className="hover:text-blue-600 transition"
+            >
+              ✉️ info@cresthomes.com
+            </a>
+          </div>
         </ul>
       </div>
     </header>
