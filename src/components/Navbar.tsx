@@ -24,7 +24,7 @@ const Navbar = () => {
             <li><a href="/listings" className="hover:text-blue-900 transition">Listings</a></li>
             <li><a href="/agents" className="hover:text-blue-900 transition">Agents</a></li>
             <li><a href="/about" className="hover:text-blue-900 transition">About</a></li>
-            <li><a href="/contact" className="hover:text-blue-900 transition">Contact</a></li>
+            <li><a href="/" className="hover:text-blue-900 transition">Contact</a></li>
           </ul>
 
           {/* Contact info - hidden on small screens */}
@@ -72,7 +72,7 @@ const Navbar = () => {
           <li><a href="/listings" onClick={toggleMenu}>Listings</a></li>
           <li><a href="/agents" onClick={toggleMenu}>Agents</a></li>
           <li><a href="/about" onClick={toggleMenu}>About</a></li>
-          <li><a href="/contact" onClick={toggleMenu}>Contact</a></li>
+          <li><a href="/" onClick={toggleMenu}>Contact</a></li>
         </ul>
       </div>
     </header>
