@@ -16,7 +16,7 @@ const Home = () => {
 
     const alreadyShown = sessionStorage.getItem("welcomeToastShown");
 
-    if (isPageRefresh && alreadyShown) {
+    if (isPageRefresh) {
       toast('🏡 Welcome to Crest-On', {
         id: 'home-toast',
         description: 'Find your dream home with us today.',
