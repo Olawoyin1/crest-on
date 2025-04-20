@@ -28,10 +28,10 @@ function App() {
   
           <Route path="*" element={<ErrorPage />} />
   
-          <Route path="/about" element={<About />} />
-          <Route path="/listings" element={<Listings />} />
-          <Route path="/agents" element={<Agents />} />
-          <Route path="services" element={<Services />} />
+          <Route path="/" element={<About />} />
+          <Route path="/" element={<Listings />} />
+          <Route path="/" element={<Agents />} />
+          <Route path="/" element={<Services />} />
         </Route>
         )
       )

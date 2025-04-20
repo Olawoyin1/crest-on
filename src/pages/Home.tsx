@@ -8,6 +8,7 @@ import WhyUs from '../components/WhyUs'
 import { toast } from 'sonner'
 import Services from './Services'
 import Intro from '../components/Intro'
+import Agents from './Agents'
 
 const Home = () => {
 
@@ -39,6 +40,7 @@ const Home = () => {
         {/* <FeaturedProperties /> */}
         <WhyUs />
         <Services />
+        <Agents />
         <Testimonials />
 
 
