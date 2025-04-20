@@ -41,7 +41,7 @@ const Services = () => {
       <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
           Explore the wide range of real estate services we offer to help you at every stage of your journey.
         </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 px-7 lg:grid-cols-3 gap-8">
         {services.map((service, index) => (
           <div
             key={index}

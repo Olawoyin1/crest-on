@@ -34,7 +34,7 @@ const Agents = () => {
           Whether you're looking to buy, sell, or rent, our agents have the expertise to guide you through every step.
         </p>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 px-7 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {agents.map((agent) => (
             <div key={agent.id} className="overflow-hidden">
               <div className="h-64 overflow-hidden">
