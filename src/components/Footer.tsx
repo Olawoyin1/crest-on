@@ -30,7 +30,7 @@ const Footer = () => {
                 href="tel:850-123-5021"
                 aria-label="Our phone"
                 title="Our phone"
-                className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                className="transition-colors sf duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
                 850-123-5021
               </a>
@@ -41,7 +41,7 @@ const Footer = () => {
                 href="mailto:info@creston.com"
                 aria-label="Our email"
                 title="Our email"
-                className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                className="transition-colors sf duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
                 info@cresthomes.com
               </a>
@@ -54,7 +54,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 aria-label="Our address"
                 title="Our address"
-                className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                className="transition-colors sf duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
                249 WICK ROAD E9 5DG
               </a>
@@ -93,10 +93,10 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
-          <p className="text-sm text-gray-600">
+          <p className="text-sm sf text-gray-600">
             © 2025 Crest-Homes Estate Agent Ltd. All rights reserved.
           </p>
-          <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
+          <ul className="flex sf flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>
               <a
                 href="/faq"

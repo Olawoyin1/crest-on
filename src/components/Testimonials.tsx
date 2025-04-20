@@ -66,7 +66,7 @@ const Testimonials = () => {
                     className="w-16 h-16 shadow rounded-full mx-auto mb-4 object-cover"
                   />
                   <p className="text-center italic text-gray-700 mb-2">"{testimonial.text}"</p>
-                  <h4 className="text-center font-semibold text-gray-800">{testimonial.name}</h4>
+                  <h4 className="text-center sf font-semibold text-gray-800">{testimonial.name}</h4>
                 </div>
               ))}
             </Slider>
