@@ -39,7 +39,7 @@ const Navbar = () => {
 
           {/* Hamburger Button */}
           <div className="md:hidden">
-            <button onClick={toggleMenu} className="text-gray-600 focus:outline-none">
+            <button onClick={toggleMenu} className=" focus:outline-none">
               <RxHamburgerMenu size={24} />
             </button>
           </div>
