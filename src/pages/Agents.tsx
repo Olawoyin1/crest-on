@@ -1,5 +1,5 @@
 import { Mail, Phone } from 'lucide-react';
-import Navbar from '../components/Navbar';
+// import Navbar from '../components/Navbar';
 
 // Sample data for agents
 const agents = [
@@ -50,11 +50,11 @@ const Agents = () => {
                 <p className="text-gray-600 text-sm line-clamp-3">{agent.bio}</p>
               </div>
               <div className="flex mt-2 flex-col items-start gap-2">
-                <button className="w-full bg-gray-900 text-white  p-1 cursor-pointer text-sm border-0  flex justify-center items-center gap-2">
+                <button className="w-full bg-gray-900 text-white  p-1 cursor-pointer text-sm border-0  flex justify-center sf items-center gap-2">
                   <Phone size={16} />
                   <span>{agent.phone}</span>
                 </button>
-                <button className="w-full  p-1 cursor-pointer text-sm border-0 bg-blue-900 text-white flex justify-center items-center gap-2">
+                <button className="w-full sf  p-1 cursor-pointer text-sm border-0 bg-blue-900 text-white flex justify-center items-center gap-2">
                   <Mail size={16} />
                   <span>Contact Agent</span>
                 </button>
