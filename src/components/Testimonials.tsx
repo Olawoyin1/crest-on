@@ -37,7 +37,7 @@ const Testimonials = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div>
-            <h2 className="text-3xl headings font-bold text-gray-800 mb-4">
+            <h2 className="text-3xl sf font-bold text-gray-800 mb-4">
               What Our Customers Are Saying
             </h2>
             <p className="text-gray-600 mb-6">

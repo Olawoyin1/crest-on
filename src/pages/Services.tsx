@@ -37,7 +37,7 @@ const Services = () => {
     <div className="py-20">
 
     <div className="container mx-auto ">
-      <h2 className="text-3xl font-bold text-center headings mb-1">Our Services</h2>
+      <h2 className="text-3xl font-bold text-center sf mb-1">Our Services</h2>
       <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
           Explore the wide range of real estate services we offer to help you at every stage of your journey.
         </p>
@@ -45,15 +45,15 @@ const Services = () => {
         {services.map((service, index) => (
           <div
             key={index}
-            className="flex flex-col border border-blue-200 p-2 items-center bg-white rounded-lg overflow-hidden"
+            className="flex flex-col items-center bg-white"
           >
             <img
               src={service.imageUrl}
               alt={service.name}
-              className="w-full h-48 object-cover  rounded-md shadow"
+              className="w-full h-48 object-cover  "
             />
-            <div className="p-2 flex gap-2 flex-col ">
-              <h3 className="font-bold headings text-md text-blue-900">{service.name}</h3>
+            <div className="mt-3  flex gap-2 flex-col ">
+              <h3 className="font-bold sf text-md text-blue-900">{service.name}</h3>
               <p className="text-gray-600  max-h-24 overflow-hidden text-ellipsis">{service.description}</p>
             </div>
           </div>

@@ -32,11 +32,11 @@ const Home = () => {
   return (
     <div>
         <Hero />
-        <div className="container-custom px-7">
+        {/* <div className="container-custom px-7">
           <SearchComponent />
-        </div>
+        </div> */}
         <Intro />
-        <FeaturedProperties />
+        {/* <FeaturedProperties /> */}
         <WhyUs />
         <Services />
         <Testimonials />

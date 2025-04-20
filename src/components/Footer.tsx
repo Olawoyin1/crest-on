@@ -7,8 +7,7 @@ const Footer = () => {
       <div className="container px-4 mx-auto md:px-24 lg:px-0">
         <div className="grid gap-7 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2">
-            <Link to='/' className="text-xl font-bold flex gap-1 tracking-tight">
-              <img src="../../Images/logo.png" className="w-7" alt="Crest-On Logo" />
+            <Link to='/' className="text-xl sf font-bold flex gap-1 tracking-tight">
               <h3>Crest-Homes</h3>
             </Link>
             <div className="mt-6 lg:max-w-sm">
@@ -22,7 +21,7 @@ const Footer = () => {
           </div>
 
           <div className="space-y-2 text-sm">
-            <span className="text-base  font-bold tracking-wide text-gray-900">
+            <span className="text-base sf font-bold tracking-wide text-gray-900">
               Contact Us
             </span>
             <div className="flex mt-3">
@@ -63,7 +62,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <span className="text-base font-bold tracking-wide text-gray-900">
+            <span className="text-base sf font-bold tracking-wide text-gray-900">
               Connect With Us
             </span>
             <div className="flex items-center mt-3 space-x-3">
