@@ -37,7 +37,7 @@ const Testimonials = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div>
-            <h2 className="text-3xl sf font-bold text-gray-800 mb-4">
+            <h2 className="text-3xl headings font-bold text-gray-800 mb-4">
               What Our Customers Are Saying
             </h2>
             <p className="text-gray-600 mb-6">
@@ -66,7 +66,7 @@ const Testimonials = () => {
                     className="w-16 h-16 shadow rounded-full mx-auto mb-4 object-cover"
                   />
                   <p className="text-center italic text-gray-700 mb-2">"{testimonial.text}"</p>
-                  <h4 className="text-center sf font-semibold text-gray-800">{testimonial.name}</h4>
+                  <h4 className="text-center font-semibold text-gray-800">{testimonial.name}</h4>
                 </div>
               ))}
             </Slider>

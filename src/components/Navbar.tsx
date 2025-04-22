@@ -9,7 +9,7 @@ const Navbar = () => {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <header className="main-nav sf text-white w-ful relative z-50">
+    <header className="main-nav  text-white w-ful relative z-50">
       <nav className="h-[60px] container mx-auto">
         <div className="h-full flex items-center justify-between">
           {/* Logo */}

@@ -28,7 +28,7 @@ const Agents = () => {
   return (
     <>
       <main className="container  py-10">
-        <h1 className="text-4xl  font-bold sf mb-6">Our Expert Agents</h1>
+        <h1 className="text-4xl  font-bold mb-6">Our Expert Agents</h1>
         <p className="text-gray-600 mb-10 max-w-3xl">
           Our team of experienced real estate professionals is here to help you find your perfect property. 
           Whether you're looking to buy, sell, or rent, our agents have the expertise to guide you through every step.
@@ -45,16 +45,16 @@ const Agents = () => {
                 />
               </div>
               <div className="mt-2">
-                <h3 className="text-xl sf font-semibold">{agent.name}</h3>
+                <h3 className="text-xl font-semibold">{agent.name}</h3>
                 <p className="text-primary sf font-medium mb-2">{agent.specialization}</p>
                 <p className="text-gray-600 text-sm line-clamp-3">{agent.bio}</p>
               </div>
               <div className="flex mt-2 flex-col items-start gap-2">
-                <button className="w-full bg-gray-900 text-white  p-1 cursor-pointer text-sm border-0  flex justify-center sf items-center gap-2">
+                <button className="w-full bg-gray-900 text-white  p-1 cursor-pointer text-sm border-0  flex justify-center items-center gap-2">
                   <Phone size={16} />
                   <span>{agent.phone}</span>
                 </button>
-                <button className="w-full sf  p-1 cursor-pointer text-sm border-0 bg-blue-900 text-white flex justify-center items-center gap-2">
+                <button className="w-full   p-1 cursor-pointer text-sm border-0 bg-blue-900 text-white flex justify-center items-center gap-2">
                   <Mail size={16} />
                   <span>Contact Agent</span>
                 </button>
