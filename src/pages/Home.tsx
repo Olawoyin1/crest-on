@@ -9,6 +9,7 @@ import { toast } from 'sonner'
 import Services from './Services'
 import Intro from '../components/Intro'
 import Agents from './Agents'
+import Card from '../components/Card'
 
 const Home = () => {
 
@@ -33,15 +34,13 @@ const Home = () => {
   return (
     <div>
         <Hero />
-        {/* <div className="container-custom px-7">
-          <SearchComponent />
-        </div> */}
+        <Card />
         <Intro />
         {/* <FeaturedProperties /> */}
         <WhyUs />
         <Services />
         <Agents />
-        <Testimonials />
+        {/* <Testimonials /> */}
 
 
 

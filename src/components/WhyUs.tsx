@@ -25,7 +25,7 @@ const reasons = [
 
 const WhyUs = () => {
   return (
-    <section className="py-20 bg-gray-300/8">
+    <section className="py-10 bg-gray-300/8">
       <div className="container mx-auto">
         <h2 className="text-2xl md:text-3xl  font-bold text-center text-gray-800 mb-2">
           Why You Should Work With Us

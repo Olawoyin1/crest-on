@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { ChevronDownIcon } from 'lucide-react';
-import Navbar from '../components/Navbar';
 import WhyUs from '../components/WhyUs';
 
 const faqs = [
@@ -35,8 +34,7 @@ export default function About() {
   };
 
   return (
-    <div>
-        <Navbar />
+    <div className='mt-20'>
         
         <div className="container py-10 mx-auto">
             <div className="md:flex gap-10">

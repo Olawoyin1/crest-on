@@ -12,7 +12,7 @@ const Footer = () => {
             </Link>
             <div className="mt-6 lg:max-w-sm">
               <p className="text-sm text-gray-800">
-                At Crest-On, we provide seamless real estate solutions. Whether you are buying, selling, or renting, we simplify the process to help you find the perfect home.
+                At Crest-Homes, we provide seamless real estate solutions. Whether you are buying, selling, or renting, we simplify the process to help you find the perfect home.
               </p>
               <p className="mt-4 text-sm text-gray-800">
                 Our expert team ensures you have a smooth and enjoyable experience, backed by years of industry knowledge and professionalism.
