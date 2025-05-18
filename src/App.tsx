@@ -16,9 +16,9 @@ const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
 const Services = lazy(() => import("./pages/Services"));
 const Agents = lazy(() => import("./pages/Agents"));
-// const CategoryPage = lazy(() => import("./pages/CategoryPage"));
 const ErrorPage = lazy(() => import("./pages/ErrorPage"));
 const SharedLayout = lazy(() => import("./components/SharedLayout"));
+const HowItWorks = lazy(() => import("./components/HowItWorks"));
 
 const main = createBrowserRouter(
   createRoutesFromElements(
@@ -57,6 +57,17 @@ const main = createBrowserRouter(
           </Suspense>
         }
       />
+      
+      <Route
+        path="how-it-works"
+        element={
+          <Suspense fallback={<Loader />}>
+            <HowItWorks />
+          </Suspense>
+        }
+      />
+
+
       <Route
         path="services"
         element={
