@@ -184,7 +184,7 @@ const Navbar = () => {
               </Link>
             </li>
 
-            {navItems.map((item) => (
+            {/* {navItems.map((item) => (
               <li key={item.title}>
                 <button
                   type="button"
@@ -215,7 +215,41 @@ const Navbar = () => {
                   </ul>
                 )}
               </li>
-            ))}
+            ))} */}
+
+            {navItems.map((item) => (
+  <li key={item.title}>
+    <button
+      type="button"
+      className="w-full flex justify-between items-center py-2 px-3 hover:bg-gray-100 rounded font-medium"
+      onClick={() => toggleMobileDropdown(item.title)}
+    >
+      {item.title}
+      {mobileDropdownOpen === item.title ? <FaChevronUp /> : <FaChevronDown />}
+    </button>
+
+    <div
+      className={`pl-6 transition-all duration-300 ease-in-out overflow-hidden ${
+        mobileDropdownOpen === item.title ? "max-h-96 opacity-100 mt-2" : "max-h-0 opacity-0"
+      }`}
+    >
+      <ul className="flex flex-col space-y-1">
+        {item.links.map((link) => (
+          <li key={link.label}>
+            <Link
+              to={link.path}
+              className="block py-1 px-2 hover:text-blue-600"
+              onClick={() => setMenuOpen(false)}
+            >
+              {link.label}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </li>
+))}
+
 
             <li className="pt-4 border-t border-gray-200 text-sm space-y-1">
               <div>📞 +850-123-5021</div>
