@@ -75,7 +75,7 @@ const Navbar = () => {
             : "bg-white text-black shadow"
         }`}
       >
-        <div className="container mx-auto px-4 h-[80px] flex items-center justify-between">
+        <div className="container mx-auto  h-[80px] flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="text-xl font-bold tracking-tight">
             Crest-Homes

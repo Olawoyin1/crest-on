@@ -147,7 +147,7 @@ const Hero: React.FC = () => {
 
       {/* Hero Content */}
       <div className="relative z-20 flex flex-col items-center justify-center min-h-[100vh] px-4 text-center">
-        <h1 className="text-white text-4xl md:text-6xl max-w-4xl font-bold leading-tight">
+        <h1 className="text-white text-2xl md:text-6xl max-w-4xl font-bold leading-tight">
           Find Your Perfect Home with Crest Homes
         </h1>
         <p className="text-white text-lg md:text-2xl mt-4 max-w-2xl">
