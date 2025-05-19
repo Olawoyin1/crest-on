@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="../../Images/cresthome.mp4" // Replace with your actual path
+        src="../../Images/chv.mp4" // Replace with your actual path
         autoPlay
         loop
         muted
