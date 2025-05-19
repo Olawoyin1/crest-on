@@ -8,7 +8,7 @@ const Card: React.FC = () => {
     <div className="flex flex-col md:flex-row items-center justify-between  py-10  gap-6 md:gap-0 container mx-auto">
       {/* Left Content */}
       <div className="text-center md:text-left">
-        <h2 className="text-xl md:text-3xl font-bold mb-2">
+        <h2 className="text-2xl md:text-3xl font-bold mb-2">
           Thinking of selling or letting your property?
         </h2>
         <p className=" text-base md:text-lg">
