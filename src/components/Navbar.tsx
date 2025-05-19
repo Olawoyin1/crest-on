@@ -16,7 +16,7 @@ const navItems = [
   {
     title: "Sell",
     links: [
-      { label: "How does Crest-Home works", path: "/how-it-works" },
+      { label: "How does Crest Home works", path: "/how-it-works" },
       { label: "Your Local Estate Agents", path: "/agents" },
       { label: "Sell with an Agent", path: "/agent" },
       { label: "Read Our Customers Review", path: "/review" },
@@ -75,7 +75,7 @@ const Navbar = () => {
       >
         <div className="container mx-auto h-[80px] flex items-center justify-between">
           <Link to="/" className="text-xl font-bold tracking-tight">
-            Crest-Homes
+            Crest Homes
           </Link>
 
           <ul className="hidden md:flex space-x-6 font-medium text-sm relative">
@@ -153,7 +153,7 @@ const Navbar = () => {
               className="text-xl font-bold tracking-tight"
               onClick={() => setMenuOpen(false)}
             >
-              Crest-Homes
+              Crest Homes
             </Link>
             <button
               onClick={() => setMenuOpen(false)}
