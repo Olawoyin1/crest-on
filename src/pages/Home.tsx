@@ -3,7 +3,7 @@ import Hero from '../components/Hero'
 import WhyUs from '../components/WhyUs'
 import { toast } from 'sonner'
 import Services from './Services'
-// import Intro from '../components/Intro'
+import Intro from '../components/Intro'
 import Agents from './Agents'
 import Card from '../components/Card'
 
@@ -15,7 +15,7 @@ const Home = () => {
     const alreadyShown = sessionStorage.getItem("welcomeToastShown");
 
     if (isPageRefresh) {
-      toast('🏡 Welcome to Crest-On', {
+      toast('🏡 Welcome to Crest Homes', {
         id: 'home-toast',
         description: 'Find your dream home with us today.',
         duration: 4000,
@@ -31,10 +31,10 @@ const Home = () => {
     <div>
         <Hero />
         <Card />
-        {/* <Intro /> */}
         {/* <FeaturedProperties /> */}
         <Services />
         <WhyUs />
+        <Intro />
         <Agents />
         {/* <Testimonials /> */}
 

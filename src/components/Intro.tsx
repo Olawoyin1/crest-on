@@ -10,7 +10,7 @@ const Intro = () => {
                 </div>
                 <div className="flex flex-col flex-2/3 gap-3 mt-10 md:mt-0">
                     <h4 className="font-semibold uppercase  text-blue-900 sf border-b text-md">About Us</h4>
-                    <h3 className="font-extrabold text-3xl headings"><span className="text-blue-900">CREST HOMES</span> : Where Property Meets Possibility</h3>
+                    <h3 className="font-extrabold text-3xl headings"><span className="text-blue-900">CREST HOMES</span> </h3>
 
                     <p className="">Founded in 2011, Crest Homes is a trusted name in the UK property market, dedicated to helping individuals and families find their perfect homes and investment properties. With over a decade of experience, we specialize in residential, commercial, and strategic property management, offering tailored solutions that meet the diverse needs of our clients. <br /> <br />
 

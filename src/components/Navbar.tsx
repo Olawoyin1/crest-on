@@ -7,28 +7,28 @@ const navItems = [
   {
     title: "Buy",
     links: [
-      { label: "Houses for Sale", path: "/houses" },
-      { label: "Book Viewing Instantly", path: "/view" },
-      { label: "Luxury Homes", path: "/luxury" },
-      { label: "Read Our Customers Review", path: "/review" },
+      { label: "Houses for Sale", path: "/" },
+      { label: "Book Viewing Instantly", path: "/" },
+      { label: "Luxury Homes", path: "/" },
+      { label: "Read Our Customers Review", path: "/" },
     ],
   },
   {
     title: "Sell",
     links: [
       { label: "How does Crest Home works", path: "/how-it-works" },
-      { label: "Your Local Estate Agents", path: "/agents" },
-      { label: "Sell with an Agent", path: "/agent" },
-      { label: "Read Our Customers Review", path: "/review" },
+      { label: "Your Local Estate Agents", path: "/" },
+      { label: "Sell with an Agent", path: "/" },
+      { label: "Read Our Customers Review", path: "/" },
     ],
   },
   {
     title: "Rent",
     links: [
-      { label: "Available Rentals", path: "/listings" },
-      { label: "Book Viewing Instantly", path: "/view" },
-      { label: "Tenant Guide", path: "/tenant-guide" },
-      { label: "Read Our Customers Review", path: "/review" },
+      { label: "Available Rentals", path: "/" },
+      { label: "Book Viewing Instantly", path: "/" },
+      { label: "Tenant Guide", path: "/" },
+      { label: "Read Our Customers Review", path: "/" },
     ],
   },
 ];

@@ -79,7 +79,7 @@ const CrestHomesTimeline = () => {
               </div>
 
               {/* Number Badge */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-semibold shadow z-20">
+              <div className="absolute hidden  left-1/2 transform -translate-x-1/2 bg-blue-600 text-white w-10 h-10 rounded-full md:flex items-center justify-center font-semibold shadow z-20">
                 {step.number}
               </div>
 

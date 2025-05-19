@@ -4,7 +4,7 @@ import { FaXTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer className='py-10'>
-      <div className="container px-4 mx-auto md:px-24 lg:px-0">
+      <div className="container mx-auto md:px-24 lg:px-0">
         <div className="grid gap-7 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2">
             <Link to='/' className="text-xl headings font-bold flex gap-1 tracking-tight">

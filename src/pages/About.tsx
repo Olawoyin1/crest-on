@@ -1,183 +1,248 @@
-// import { useState } from 'react';
-// import { ChevronDownIcon } from 'lucide-react';
-// import WhyUs from '../components/WhyUs';
+import React from "react";
+import {
+  CheckCircle,
+  Award,
+  Users,
+  Clock,
+  Building,
+  Shield,
+} from "lucide-react";
+// import { Link } from 'react-router-dom';
 
-// const faqs = [
-//     {
-//       question: 'What services does Crest Homes offer?',
-//       answer: 'We provide comprehensive real estate solutions including property sales, lettings, asset management, and consultancy tailored for the UK market.'
-//     },
-//     {
-//       question: 'Is Crest Homes a trusted company?',
-//       answer: 'Yes, Crest Homes has been a trusted name in the UK property market since 2011, serving buyers, sellers, landlords, and tenants.'
-//     },
-//     {
-//       question: 'Where is Crest Homes based?',
-//       answer: 'Our main office is located in London, UK, and we serve clients across all regions of the United Kingdom.'
-//     },
-//     {
-//       question: 'Do you offer property valuation services?',
-//       answer: 'Yes, we offer professional property valuation services to help clients determine accurate market value before buying, selling, or renting.'
-//     },
-//     {
-//       question: 'What makes Crest Homes different from other agencies?',
-//       answer: 'Our commitment to personalised service, deep market knowledge, and a decade of trust sets us apart. We focus on long-term relationships, not just transactions.'
-//     }
-//   ];
-  
+const AboutPage: React.FC = () => {
+  // const featuredAgents = agents.slice(0, 3); // Adjust as needed
 
-// export default function About() {
-//   const [openIndex, setOpenIndex] = useState<number | null>(null);
-
-//   const toggleAccordion = (index: number) => {
-//     setOpenIndex(openIndex === index ? null : index);
-//   };
-
-//   return (
-//     <div className='mt-20'>
-        
-//         <div className="container py-10 mx-auto">
-//             <div className="md:flex gap-10">
-//                 <div className="flex-2/5 flex-shrink-0">
-//                     <img src="../../Images/crestt.jpeg"  className="object-cover w-full h-100" alt="" />
-//                 </div>
-//                 <div className="flex flex-col flex-3/5 gap-3 mt-10 md:mt-0">
-//                     <h3 className="font-extrabold text-3xl headings"><span className="text-blue-900">CREST HOMES</span> <br />Where Property Meets Possibility</h3>
-
-//                     <p className="text-gray-500">Founded in 2011, Crest Homes is a trusted name in the UK property market, dedicated to helping individuals and families find their perfect homes and investment properties. With over a decade of experience, we specialize in residential, commercial, and strategic property management, offering tailored solutions that meet the diverse needs of our clients. <br /> <br />
-
-//                     Our mission is simple: to make property finding and management effortless, transparent, and personalized. Whether you’re a first-time buyer, seasoned investor, or a family searching for your dream home, Crest Homes provides expert guidance and support at every step of your property journey. <br /> <br />
-
-//                     We combine deep market insights with cutting-edge technology to deliver a seamless experience — from smart property search tools to insightful analytics and dedicated customer service.</p>
-//                 </div>
-//             </div>
-    
-//         </div>
-
-//         <WhyUs />
-
-
-//         <div className="container py-13">
-//             {/* FAQ Section */}
-//         <div className="grid md:grid-cols-2 gap-10 items-center">
-           
-//            <div>
-//            <h2 className="text-3xl font-bold mb-6">Frequently Asked Questions</h2>
-//            <div className="space-y-4">
-//                {faqs.map((faq, index) => (
-//                <div key={index}>
-//                    <button
-//                    onClick={() => toggleAccordion(index)}
-//                    className="w-full text-sm text-left flex items-center justify-between px-4 py-3  font-medium bg-blue-700 text-white rounded-lg hover:bg-blue-200 hover:text-gray-900 transition"
-//                    >
-//                    {faq.question}
-//                    <ChevronDownIcon
-//                        className={`w-5 h-5 transition-transform duration-300 ${openIndex === index ? 'rotate-180' : ''}`}
-//                    />
-//                    </button>
-//                    <div
-//                    className={`overflow-hidden transition-all duration-300 px-4 ${
-//                        openIndex === index ? 'max-h-40 py-3' : 'max-h-0'
-//                    }`}
-//                    >
-//                    <p className="text-gray-600 text-base">{faq.answer}</p>
-//                    </div>
-//                </div>
-//                ))}
-//            </div>
-//            </div>
-
-//            <img
-//            src="../../Images/crest.jpeg"
-//            alt="FAQ"
-//            className="object-cover w-full h-120"
-//            />
-//        </div>
-//         </div>
-//     </div>
-//   );
-// }
-
-
-
-
-
-import { Users, Lightbulb, CheckCircle, Globe2 } from "lucide-react";
-
-const AboutUs = () => {
   return (
-    <section className="bg-gradient-to-br from-blue-50 via-white to-blue-100 py-20 px-6 md:px-16">
-      <div className="container mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">Get to Know Crest Homes</h2>
-        <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-          Crest Homes is a forward-thinking real estate agency committed to making your journey to homeownership seamless, inspiring, and rewarding. We’re not just about transactions—we’re about transformation. Whether you're buying your first home, upgrading your lifestyle, or investing in your future, we’re your trusted guide at every step.
+    <div className="mt-20">
+      <div className="text-center py-10">
+        <h1 className="text-3xl font-bold text-center mb-1">About Crest Homes</h1>
+        <p>
+          Elevating the real estate experience with expertise, integrity, and
+          personalized service since 2011.
         </p>
       </div>
 
-      {/* Grid Section */}
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20 max-w-6xl mx-auto">
-        <div className="bg-white shadow-xl rounded-2xl p-8 text-left hover:shadow-2xl transition duration-300">
-          <Users className="text-blue-600 w-8 h-8 mb-4" />
-          <h3 className="font-semibold text-xl mb-2 text-blue-800">People-First Approach</h3>
-          <p className="text-gray-600">
-            At Crest Homes, our mission begins and ends with people. We take time to understand your unique needs and tailor every interaction to deliver a supportive, pressure-free experience that reflects your goals and values.
-          </p>
-        </div>
+      <div>
+        {/* Mission & Vision */}
+        <section className="bg-white">
+          <div className="container grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div className="">
+              <h2 className="text-3xl  font-semibold mb-4">
+                Our Mission & Vision
+              </h2>
+              <p className="text-gray-600 mb-6 leading-relaxed">
+                At Crest Homes, our mission is to provide exceptional real
+                estate services that exceed our clients' expectations. We strive
+                to build lasting relationships based on trust, integrity, and
+                results.
+              </p>
+              <p className="text-gray-600 mb-6 leading-relaxed">
+                Our vision is to be the most trusted and respected real estate
+                agency, known for our expertise, personalized service, and
+                innovative approach.
+              </p>
+              <div className="space-y-3">
+                {[
+                  "Personalized service tailored to each client’s unique needs",
+                  "Transparent communication throughout the entire process",
+                  "Innovative marketing strategies to showcase properties",
+                  "Continuous education to stay ahead of market trends",
+                ].map((text, idx) => (
+                  <div key={idx} className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-secondary-500 mt-1 mr-3 flex-shrink-0" />
+                    <p className="text-gray-700">{text}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="relative">
+              <img
+                src="https://images.pexels.com/photos/5490778/pexels-photo-5490778.jpeg"
+                alt="Crest Homes Team"
+                className="rounded shadow-xl"
+              />
+              <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-lg hidden md:block">
+                <p className="text-primary-700 font-semibold">Established</p>
+                <p className="text-3xl font-bold text-secondary-500">2011</p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-        <div className="bg-white shadow-xl rounded-2xl p-8 text-left hover:shadow-2xl transition duration-300">
-          <Lightbulb className="text-yellow-500 w-8 h-8 mb-4" />
-          <h3 className="font-semibold text-xl mb-2 text-blue-800">Smart & Modern Tools</h3>
-          <p className="text-gray-600">
-            We invest in cutting-edge technology so you don’t have to. From AI-powered search tools to instant virtual tours and data-backed recommendations, we equip you with everything you need to make confident, informed choices.
-          </p>
-        </div>
+        {/* Core Values */}
+        <section className="py-10 bg-beige-300">
+          <div className="container">
+            <div className="text-center py-10">
+              <h1 className="text-3xl font-bold text-center mb-1">What Makes Us Different</h1>
+              <p>
+                Our values are the foundation of our business and guide every
+                interaction and decision we make.
+              </p>
+            </div>
 
-        <div className="bg-white shadow-xl rounded-2xl p-8 text-left hover:shadow-2xl transition duration-300">
-          <CheckCircle className="text-green-500 w-8 h-8 mb-4" />
-          <h3 className="font-semibold text-xl mb-2 text-blue-800">End-to-End Guidance</h3>
-          <p className="text-gray-600">
-            Buying or selling a home is a journey. We walk with you from your first showing through negotiations, inspections, financing, and closing. Our holistic support model ensures you’re never left guessing or overwhelmed.
-          </p>
-        </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {[
+                {
+                  icon: <Award />,
+                  title: "Excellence",
+                  desc: "We strive for excellence in everything we do, from client service to property marketing.",
+                },
+                {
+                  icon: <Shield />,
+                  title: "Integrity",
+                  desc: "We operate with transparency and always have our clients’ best interests at heart.",
+                },
+                {
+                  icon: <Users />,
+                  title: "Collaboration",
+                  desc: "We work closely with clients and partners to achieve exceptional results.",
+                },
+                {
+                  icon: <Building />,
+                  title: "Innovation",
+                  desc: "We embrace technology to streamline the real estate process.",
+                },
+                {
+                  icon: <Clock />,
+                  title: "Responsiveness",
+                  desc: "Timing is crucial, and our team ensures you never miss an opportunity.",
+                },
+                {
+                  icon: <Award />,
+                  title: "Expertise",
+                  desc: "Our professionals possess deep market knowledge and ongoing training.",
+                },
+              ].map((val, idx) => (
+                <div key={idx} className="bg-white p-6 rounded border border-gray-200">
+                  <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mb-4">
+                    {React.cloneElement(val.icon, {
+                      className: "w-6 h-6 text-primary-700",
+                    })}
+                  </div>
+                  <h3 className="text-xl font-semibold mb-2">{val.title}</h3>
+                  <p className="text-gray-600">{val.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
 
-        <div className="bg-white shadow-xl rounded-2xl p-8 text-left hover:shadow-2xl transition duration-300">
-          <Globe2 className="text-indigo-500 w-8 h-8 mb-4" />
-          <h3 className="font-semibold text-xl mb-2 text-blue-800">Global Reach, Local Feel</h3>
-          <p className="text-gray-600">
-            Crest Homes combines the intimacy of local expertise with the strength of national partnerships. Our agents understand neighborhood nuances and community charm, helping you find a place that’s more than just a property—it’s a lifestyle.
-          </p>
-        </div>
+        {/* Company History */}
+        <section className="py-10 bg-white">
+          <div className="container">
+            {[
+              {
+                year: "2011",
+                title: "Our Founding",
+                desc: "Crest Homes was founded with a vision to transform real estate through personalized service.",
+                bg: "bg-primary-700",
+                img: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
+                reverse: false,
+              },
+              {
+                year: "2015",
+                title: "Expansion & Growth",
+                desc: "We expanded across the region, doubling our transactions.",
+                bg: "bg-secondary-500",
+                img: "https://images.pexels.com/photos/3183186/pexels-photo-3183186.jpeg",
+                reverse: true,
+              },
+              {
+                year: "2020",
+                title: "Digital Innovation",
+                desc: "We launched our digital platform with virtual tours and online bookings.",
+                bg: "bg-accent-500",
+                img: "https://images.pexels.com/photos/3182746/pexels-photo-3182746.jpeg",
+                reverse: false,
+              },
+              {
+                year: "Today",
+                title: "Industry Leaders",
+                desc: "Crest Homes is recognized for service, expertise, and innovation.",
+                bg: "bg-primary-700",
+                img: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg",
+                reverse: true,
+              },
+            ].map((step, idx) => (
+              <div
+                key={idx}
+                className={`flex flex-col md:flex-row ${
+                  step.reverse ? "md:flex-row-reverse" : ""
+                } gap-8 mb-12`}
+              >
+                <div className="md:w-1/3 border border-gray-200 rounded">
+                  <div className={`${step.bg} p-6 rounded-lg h-full`}>
+                    <span className="text-4xl font-bold font-serif">
+                      {step.year}
+                    </span>
+                    <h3 className="text-xl font-semibold mt-4 mb-2">
+                      {step.title}
+                    </h3>
+                    <p className="">{step.desc}</p>
+                  </div>
+                </div>
+                <div className="md:w-2/3">
+                  <img
+                    src={step.img}
+                    alt={step.title}
+                    className="rounded shadow w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
 
-        <div className="bg-white shadow-xl rounded-2xl p-8 text-left hover:shadow-2xl transition duration-300">
-          <h3 className="font-semibold text-xl mb-2 text-blue-800">Sustainability & Responsibility</h3>
-          <p className="text-gray-600">
-            We're committed to more than real estate—we're committed to responsible growth. Crest Homes integrates eco-conscious practices into our listings, supports green-certified homes, and actively engages in community betterment initiatives.
-          </p>
+        {/* Team */}
+        {/* <section className="py-10 bg-beige-300">
+        <div className="container">
+           
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+            {featuredAgents.map((agent) => (
+              <AgentCard key={agent.id} agent={agent} />
+            ))}
+          </div>
+          <div className="text-center">
+            <Link to="/agents" className="btn btn-primary inline-flex items-center">
+              View All Team Members
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </Link>
+          </div>
         </div>
+      </section> */}
 
-        <div className="bg-white shadow-xl rounded-2xl p-8 text-left hover:shadow-2xl transition duration-300">
-          <h3 className="font-semibold text-xl mb-2 text-blue-800">Transparency at Every Step</h3>
-          <p className="text-gray-600">
-            Honesty and openness are at the heart of everything we do. We provide clear timelines, cost breakdowns, and real expectations, helping you make decisions with confidence and clarity.
-          </p>
-        </div>
+        {/* Stats */}
+        <section className="py-10 bg-gray-800 text-white">
+          <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+            {[
+              ["15+", "Years of Experience"],
+              ["2,500+", "Properties Sold"],
+              ["$1B+", "In Sales Volume"],
+              ["98%", "Client Satisfaction"],
+            ].map(([num, label], idx) => (
+              <div key={idx} className="p-6">
+                <div className="text-5xl font-bold mb-2 font-serif">{num}</div>
+                <p className="text-gray-200 uppercase tracking-wider">
+                  {label}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* CTA */}
+        {/* <CallToAction
+        title="Ready to Find Your Dream Home?"
+        description="Our expert agents are ready to help you navigate the real estate market and find the perfect property for your needs."
+        primaryButtonText="View Properties"
+        primaryButtonLink="/listings"
+        secondaryButtonText="Contact Us"
+        secondaryButtonLink="/contact"
+        backgroundImage="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750"
+      /> */}
       </div>
-
-      {/* CTA */}
-      <div className="text-center mt-20">
-        <h4 className="text-2xl font-bold text-blue-900 mb-4">Let’s make your next move unforgettable</h4>
-        <p className="mb-6 text-gray-700 max-w-2xl mx-auto">
-          Contact Crest Homes today to explore how we can help you buy, sell, or invest in real estate with confidence, clarity, and care. Your future home is waiting—and we’re here to guide you there.
-        </p>
-        <a
-          href="/contact"
-          className="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg font-medium shadow hover:bg-blue-800 transition"
-        >
-          Contact Us
-        </a>
-      </div>
-    </section>
+    </div>
   );
 };
 
-export default AboutUs;
+export default AboutPage;

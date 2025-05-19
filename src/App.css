@@ -8,7 +8,8 @@
     /* border: 1px solid red; */
     box-sizing: border-box !important;
     list-style-type: none;
-    /* text-decoration: none; */
+    font-family: "Manrope", sans-serif;
+    
 }
 
 
@@ -27,7 +28,6 @@ button{
 }
 
 body{
-    font-family: "Manrope", sans-serif;
     overflow-x: hidden;
 }
 
