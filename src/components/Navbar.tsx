@@ -103,7 +103,7 @@ const Navbar = () => {
 
                 {/* Desktop Dropdown Full Width */}
                 {hoveredMenu === item.title && (
-                  <div className="fixed top-12  w-full  left-0   bg-white  z-40">
+                  <div className="fixed top-12 border-b border-gray-200 w-full  left-0   bg-white  z-40">
                     <div className="container mx-auto grid grid-cols-2 gap-8 py-10 px-6">
                       {item.links.map((link) => (
                         <Link

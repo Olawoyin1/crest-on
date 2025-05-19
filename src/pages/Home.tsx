@@ -3,7 +3,7 @@ import Hero from '../components/Hero'
 import WhyUs from '../components/WhyUs'
 import { toast } from 'sonner'
 import Services from './Services'
-import Intro from '../components/Intro'
+// import Intro from '../components/Intro'
 import Agents from './Agents'
 import Card from '../components/Card'
 
@@ -31,10 +31,10 @@ const Home = () => {
     <div>
         <Hero />
         <Card />
-        <Intro />
+        {/* <Intro /> */}
         {/* <FeaturedProperties /> */}
-        <WhyUs />
         <Services />
+        <WhyUs />
         <Agents />
         {/* <Testimonials /> */}
 

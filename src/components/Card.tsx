@@ -9,7 +9,7 @@ const Card: React.FC = () => {
       {/* Left Content */}
       <div className="text-center md:text-left">
         <h2 className="text-2xl md:text-3xl font-bold mb-2">
-          Thinking of Selling Your Home?
+          Thinking of selling or letting your property?
         </h2>
         <p className=" text-base md:text-lg">
           Let Crest Homes provide you with a free, no-obligation property valuation by our local experts.

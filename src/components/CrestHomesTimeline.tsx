@@ -74,7 +74,7 @@ const CrestHomesTimeline = () => {
                 <img
                   src={step.image}
                   alt={step.title}
-                  className="rounded shadow w-full h-64 object-cover"
+                  className="rounded shadow w-full md:h-80 object-cover"
                 />
               </div>
 
