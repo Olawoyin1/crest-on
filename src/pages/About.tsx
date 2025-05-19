@@ -25,8 +25,19 @@ const AboutPage: React.FC = () => {
       <div>
         {/* Mission & Vision */}
         <section className="bg-white">
-          <div className="container grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div className="">
+          <div className="container flex flex-col md:flex-row gap-12 items-center">
+            <div className="relative flex-1/3">
+              <img
+                src="../../Images/crest.jpeg"
+                alt="Crest Homes Team"
+                className="rounded h-[490px] shadow"
+              />
+              <div className="absolute -top-6 -right-6 bg-white p-4 rounded-lg shadow-lg hidden md:block">
+                <p className="text-primary-700 font-semibold">Established</p>
+                <p className="text-3xl font-bold text-secondary-500">2011</p>
+              </div>
+            </div>
+            <div className="flex-2/3">
               <h2 className="text-3xl  font-semibold mb-4">
                 Our Mission & Vision
               </h2>
@@ -55,17 +66,7 @@ const AboutPage: React.FC = () => {
                 ))}
               </div>
             </div>
-            <div className="relative">
-              <img
-                src="https://images.pexels.com/photos/5490778/pexels-photo-5490778.jpeg"
-                alt="Crest Homes Team"
-                className="rounded shadow-xl"
-              />
-              <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-lg hidden md:block">
-                <p className="text-primary-700 font-semibold">Established</p>
-                <p className="text-3xl font-bold text-secondary-500">2011</p>
-              </div>
-            </div>
+            
           </div>
         </section>
 
@@ -168,7 +169,7 @@ const AboutPage: React.FC = () => {
                 key={idx}
                 className={`flex flex-col md:flex-row ${
                   step.reverse ? "md:flex-row-reverse" : ""
-                } gap-8 mb-12`}
+                } gap-4 mb-7`}
               >
                 <div className="md:w-1/3 border border-gray-200 rounded">
                   <div className={`${step.bg} p-6 rounded-lg h-full`}>
