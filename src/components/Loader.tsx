@@ -12,7 +12,7 @@ const Loader = () => {
 
         {/* Pulsing Text */}
         <h1 className="text-xl font-semibold text-gray-700 animate-pulse">
-          Crest-Homes
+          Crest Homes
         </h1>
       </div>
     </div>

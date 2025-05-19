@@ -13,9 +13,9 @@ const AboutPage: React.FC = () => {
   // const featuredAgents = agents.slice(0, 3); // Adjust as needed
 
   return (
-    <div className="mt-20">
-      <div className="text-center py-10">
-        <h1 className="text-3xl font-bold text-center mb-1">About Crest Homes</h1>
+    <div className="mt-27">
+      <div className="container hidden py-10">
+        <h1 className="text-3xl font-bold t mb-1">About Crest Homes</h1>
         <p>
           Elevating the real estate experience with expertise, integrity, and
           personalized service since 2011.
@@ -73,8 +73,8 @@ const AboutPage: React.FC = () => {
         {/* Core Values */}
         <section className="py-10 bg-beige-300">
           <div className="container">
-            <div className="text-center py-10">
-              <h1 className="text-3xl font-bold text-center mb-1">What Makes Us Different</h1>
+            <div className=" py-10">
+              <h1 className="text-3xl font-bold mb-1">What Makes Us Different</h1>
               <p>
                 Our values are the foundation of our business and guide every
                 interaction and decision we make.

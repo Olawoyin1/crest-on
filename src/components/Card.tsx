@@ -5,9 +5,9 @@ const Card: React.FC = () => {
 
     <div className="bg-gray-900 text-white">
 
-    <div className="flex flex-col md:flex-row items-center justify-between  py-10  gap-6 md:gap-0 container mx-auto">
+    <div className="flex flex-col md:flex-row md:items-center justify-between  py-10  gap-6 md:gap-0 container mx-auto">
       {/* Left Content */}
-      <div className="text-center md:text-left">
+      <div className=" md:text-left">
         <h2 className="text-2xl md:text-3xl font-bold mb-2">
           Thinking of selling or letting your property?
         </h2>

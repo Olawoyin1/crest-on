@@ -37,8 +37,8 @@ const Services = () => {
     <div className="py-10">
 
     <div className="container mx-auto ">
-      <h2 className="text-3xl font-bold text-center mb-1">Our Services</h2>
-      <p className="text-gray-600 text-center mb-10  mx-auto">
+      <h2 className="text-3xl font-bold  mb-1">Our Services</h2>
+      <p className="text-gray-600  mb-10  mx-auto">
           Explore the wide range of real estate services we offer to help you at every stage of your journey.
         </p>
       <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-8">
