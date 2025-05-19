@@ -107,7 +107,7 @@ import { Users, Lightbulb, CheckCircle, Globe2 } from "lucide-react";
 const AboutUs = () => {
   return (
     <section className="bg-gradient-to-br from-blue-50 via-white to-blue-100 py-20 px-6 md:px-16">
-      <div className="max-w-6xl mx-auto text-center">
+      <div className="container mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">Get to Know Crest Homes</h2>
         <p className="text-lg text-gray-700 max-w-3xl mx-auto">
           Crest Homes is a forward-thinking real estate agency committed to making your journey to homeownership seamless, inspiring, and rewarding. We’re not just about transactions—we’re about transformation. Whether you're buying your first home, upgrading your lifestyle, or investing in your future, we’re your trusted guide at every step.

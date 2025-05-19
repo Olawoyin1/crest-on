@@ -28,8 +28,8 @@ const Agents = () => {
   return (
     <>
       <main className="container  py-10">
-        <h1 className="text-4xl  font-bold mb-6">Our Expert Agents</h1>
-        <p className="text-gray-600 mb-10 max-w-3xl">
+      <h2 className="text-3xl font-bold text-center mb-1">Our Expert Agents</h2>
+        <p className="text-gray-600 mb-10 mx-auto max-w-3xl">
           Our team of experienced real estate professionals is here to help you find your perfect property. 
           Whether you're looking to buy, sell, or rent, our agents have the expertise to guide you through every step.
         </p>
