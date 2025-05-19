@@ -100,100 +100,81 @@
 
 
 
-import React from "react";
+
+
+import { Users, Lightbulb, CheckCircle, Globe2 } from "lucide-react";
 
 const AboutUs = () => {
   return (
-    <section className="bg-white text-gray-800 py-16 px-6 lg:px-20">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-bold mb-4 text-center text-blue-900">About Crest Homes</h2>
-        <p className="text-lg text-center max-w-3xl mx-auto mb-12">
-          Your journey to finding or selling the perfect home starts with a team that knows the industry,
-          cares deeply about your goals, and delivers every step of the way. That’s what Crest Homes is all about.
+    <section className="bg-gradient-to-br from-blue-50 via-white to-blue-100 py-20 px-6 md:px-16">
+      <div className="max-w-6xl mx-auto text-center">
+        <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">Get to Know Crest Homes</h2>
+        <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+          Crest Homes is a forward-thinking real estate agency committed to making your journey to homeownership seamless, inspiring, and rewarding. We’re not just about transactions—we’re about transformation. Whether you're buying your first home, upgrading your lifestyle, or investing in your future, we’re your trusted guide at every step.
         </p>
+      </div>
 
-        {/* Our Story */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-semibold mb-4 text-blue-800">Our Story</h3>
-          <p className="text-base leading-7">
-            Crest Homes began with a simple idea: to revolutionize how people discover, buy, and sell homes.
-            What started as a local agency has grown into a nationally recognized real estate brand known
-            for innovation, trust, and excellence. With decades of combined experience in residential sales,
-            rentals, and luxury markets, our team is passionate about making your real estate experience exceptional.
+      {/* Grid Section */}
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20 max-w-6xl mx-auto">
+        <div className="bg-white shadow-xl rounded-2xl p-8 text-left hover:shadow-2xl transition duration-300">
+          <Users className="text-blue-600 w-8 h-8 mb-4" />
+          <h3 className="font-semibold text-xl mb-2 text-blue-800">People-First Approach</h3>
+          <p className="text-gray-600">
+            At Crest Homes, our mission begins and ends with people. We take time to understand your unique needs and tailor every interaction to deliver a supportive, pressure-free experience that reflects your goals and values.
           </p>
         </div>
 
-        {/* Our Mission */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-semibold mb-4 text-blue-800">Our Mission</h3>
-          <p className="text-base leading-7">
-            We aim to simplify the real estate process while delivering unmatched personal service.
-            At Crest Homes, our mission is to help clients make informed decisions with confidence—whether it’s
-            their first home, an investment property, or a dream upgrade. We combine cutting-edge technology with
-            human care to create a seamless experience tailored to each unique need.
+        <div className="bg-white shadow-xl rounded-2xl p-8 text-left hover:shadow-2xl transition duration-300">
+          <Lightbulb className="text-yellow-500 w-8 h-8 mb-4" />
+          <h3 className="font-semibold text-xl mb-2 text-blue-800">Smart & Modern Tools</h3>
+          <p className="text-gray-600">
+            We invest in cutting-edge technology so you don’t have to. From AI-powered search tools to instant virtual tours and data-backed recommendations, we equip you with everything you need to make confident, informed choices.
           </p>
         </div>
 
-        {/* What Makes Us Different */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-semibold mb-4 text-blue-800">What Sets Us Apart</h3>
-          <ul className="space-y-4 list-disc pl-5 text-base">
-            <li><strong>Local Knowledge, National Reach:</strong> Deep roots in your community backed by national resources.</li>
-            <li><strong>Tech-Driven, Human-Touched:</strong> Smart search tools, instant bookings, and real agents by your side.</li>
-            <li><strong>Transparency & Trust:</strong> No hidden fees, honest advice, and complete transparency throughout.</li>
-            <li><strong>End-to-End Service:</strong> From discovery to closing—and even move-in support—we’re with you all the way.</li>
-          </ul>
-        </div>
-
-        {/* Our Core Values */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-semibold mb-4 text-blue-800">Our Core Values</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-base">
-            <div className="bg-gray-100 p-4 rounded-lg shadow">
-              <h4 className="font-bold text-blue-700 mb-2">Integrity</h4>
-              <p>We build trust through honesty, transparency, and ethical practices.</p>
-            </div>
-            <div className="bg-gray-100 p-4 rounded-lg shadow">
-              <h4 className="font-bold text-blue-700 mb-2">Innovation</h4>
-              <p>We continuously embrace modern tools and ideas to improve our client experience.</p>
-            </div>
-            <div className="bg-gray-100 p-4 rounded-lg shadow">
-              <h4 className="font-bold text-blue-700 mb-2">Client-First Approach</h4>
-              <p>Our priority is to make sure every decision benefits our clients’ long-term goals.</p>
-            </div>
-          </div>
-        </div>
-
-        {/* Testimonials or Trust Section */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-semibold mb-4 text-blue-800">Trusted by Thousands</h3>
-          <p className="text-base mb-6">
-            With over 10,000 successful transactions and a 98% client satisfaction rate, Crest Homes is trusted by
-            families, investors, and first-time buyers alike. Our reputation is built on results and lasting relationships.
+        <div className="bg-white shadow-xl rounded-2xl p-8 text-left hover:shadow-2xl transition duration-300">
+          <CheckCircle className="text-green-500 w-8 h-8 mb-4" />
+          <h3 className="font-semibold text-xl mb-2 text-blue-800">End-to-End Guidance</h3>
+          <p className="text-gray-600">
+            Buying or selling a home is a journey. We walk with you from your first showing through negotiations, inspections, financing, and closing. Our holistic support model ensures you’re never left guessing or overwhelmed.
           </p>
-          <div className="flex gap-6 flex-wrap">
-            <div className="bg-blue-100 rounded-lg p-4 w-full sm:w-[48%]">
-              <p className="italic">“Crest Homes made our home search stress-free and even fun! Highly recommend.”</p>
-              <span className="block mt-2 font-medium">— Sarah & James, London</span>
-            </div>
-            <div className="bg-blue-100 rounded-lg p-4 w-full sm:w-[48%]">
-              <p className="italic">“They helped me sell quickly and above asking. Best service I’ve received in real estate.”</p>
-              <span className="block mt-2 font-medium">— Ali, Birmingham</span>
-            </div>
-          </div>
         </div>
 
-        {/* Call to Action */}
-        <div className="text-center mt-12">
-          <h4 className="text-xl font-semibold mb-2 text-blue-900">Ready to start your journey?</h4>
-          <p className="text-base mb-4">Explore homes, connect with an agent, or schedule your first viewing today.</p>
-          <a
-            href="/contact"
-            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition"
-          >
-            Contact Us
-          </a>
+        <div className="bg-white shadow-xl rounded-2xl p-8 text-left hover:shadow-2xl transition duration-300">
+          <Globe2 className="text-indigo-500 w-8 h-8 mb-4" />
+          <h3 className="font-semibold text-xl mb-2 text-blue-800">Global Reach, Local Feel</h3>
+          <p className="text-gray-600">
+            Crest Homes combines the intimacy of local expertise with the strength of national partnerships. Our agents understand neighborhood nuances and community charm, helping you find a place that’s more than just a property—it’s a lifestyle.
+          </p>
         </div>
+
+        <div className="bg-white shadow-xl rounded-2xl p-8 text-left hover:shadow-2xl transition duration-300">
+          <h3 className="font-semibold text-xl mb-2 text-blue-800">Sustainability & Responsibility</h3>
+          <p className="text-gray-600">
+            We're committed to more than real estate—we're committed to responsible growth. Crest Homes integrates eco-conscious practices into our listings, supports green-certified homes, and actively engages in community betterment initiatives.
+          </p>
+        </div>
+
+        <div className="bg-white shadow-xl rounded-2xl p-8 text-left hover:shadow-2xl transition duration-300">
+          <h3 className="font-semibold text-xl mb-2 text-blue-800">Transparency at Every Step</h3>
+          <p className="text-gray-600">
+            Honesty and openness are at the heart of everything we do. We provide clear timelines, cost breakdowns, and real expectations, helping you make decisions with confidence and clarity.
+          </p>
+        </div>
+      </div>
+
+      {/* CTA */}
+      <div className="text-center mt-20">
+        <h4 className="text-2xl font-bold text-blue-900 mb-4">Let’s make your next move unforgettable</h4>
+        <p className="mb-6 text-gray-700 max-w-2xl mx-auto">
+          Contact Crest Homes today to explore how we can help you buy, sell, or invest in real estate with confidence, clarity, and care. Your future home is waiting—and we’re here to guide you there.
+        </p>
+        <a
+          href="/contact"
+          className="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg font-medium shadow hover:bg-blue-800 transition"
+        >
+          Contact Us
+        </a>
       </div>
     </section>
   );
