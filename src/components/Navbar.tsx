@@ -16,7 +16,7 @@ const navItems = [
   {
     title: "Sell",
     links: [
-      { label: "How does Crest Home works", path: "/how-it-works" },
+      { label: "How does Crest Home work", path: "/how-it-works" },
       { label: "Your Local Estate Agents", path: "/" },
       { label: "Sell with an Agent", path: "/" },
       { label: "Read Our Customers Review", path: "/" },
@@ -75,7 +75,7 @@ const Navbar = () => {
       >
         <div className="container mx-auto h-[80px] flex items-center justify-between">
           <Link to="/" className="text-xl font-bold tracking-tight">
-            Crest Homes
+            Crest Home
           </Link>
 
           <ul className="hidden md:flex space-x-6 font-medium text-sm relative">
@@ -122,7 +122,7 @@ const Navbar = () => {
           </ul>
 
           <div className="hidden lg:flex flex-col z-50 text-sm">
-            <span>📞 +850-123-5021</span>
+            <span>📞 07956445750</span>
             <a href="mailto:info@cresthomes.com">✉️ info@cresthomes.com</a>
           </div>
 
@@ -153,7 +153,7 @@ const Navbar = () => {
               className="text-xl font-bold tracking-tight"
               onClick={() => setMenuOpen(false)}
             >
-              Crest Homes
+              Crest Home
             </Link>
             <button
               onClick={() => setMenuOpen(false)}
@@ -252,7 +252,7 @@ const Navbar = () => {
 
 
             <li className="pt-4 border-t border-gray-200 text-sm space-y-1">
-              <div>📞 +850-123-5021</div>
+              <div>📞 07956445750</div>
               <a href="mailto:info@cresthomes.com" className="block">
                 ✉️ info@cresthomes.com
               </a>

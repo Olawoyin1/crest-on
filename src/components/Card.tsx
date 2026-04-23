@@ -12,7 +12,7 @@ const Card: React.FC = () => {
           Thinking of selling or letting your property?
         </h2>
         <p className=" text-base md:text-lg">
-          Let Crest Homes provide you with a free, no-obligation property valuation by our local experts.
+          Let Crest Home provide you with a free, no-obligation property valuation by our local experts.
         </p>
       </div>
 

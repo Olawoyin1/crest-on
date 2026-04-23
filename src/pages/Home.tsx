@@ -4,7 +4,6 @@ import WhyUs from '../components/WhyUs'
 import { toast } from 'sonner'
 import Services from './Services'
 import Intro from '../components/Intro'
-import Agents from './Agents'
 import Card from '../components/Card'
 
 const Home = () => {
@@ -15,7 +14,7 @@ const Home = () => {
     const alreadyShown = sessionStorage.getItem("welcomeToastShown");
 
     if (isPageRefresh) {
-      toast('🏡 Welcome to Crest Homes', {
+      toast('🏡 Welcome to Crest Home', {
         id: 'home-toast',
         description: 'Find your dream home with us today.',
         duration: 4000,
@@ -35,7 +34,6 @@ const Home = () => {
         <Services />
         <WhyUs />
         <Intro />
-        <Agents />
         {/* <Testimonials /> */}
 
 

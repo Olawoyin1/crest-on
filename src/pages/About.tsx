@@ -15,7 +15,7 @@ const AboutPage: React.FC = () => {
   return (
     <div className="mt-27">
       <div className="container hidden py-10">
-        <h1 className="text-3xl font-bold t mb-1">About Crest Homes</h1>
+        <h1 className="text-3xl font-bold t mb-1">About Crest Home</h1>
         <p>
           Elevating the real estate experience with expertise, integrity, and
           personalized service since 2011.
@@ -29,7 +29,7 @@ const AboutPage: React.FC = () => {
             <div className="relative flex-1/3">
               <img
                 src="../../Images/crest.jpeg"
-                alt="Crest Homes Team"
+                alt="Crest Home Team"
                 className="rounded h-[490px] shadow"
               />
               <div className="absolute -top-6 -right-6 bg-white p-4 rounded-lg shadow-lg hidden md:block">
@@ -42,7 +42,7 @@ const AboutPage: React.FC = () => {
                 Our Mission & Vision
               </h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                At Crest Homes, our mission is to provide exceptional real
+                At Crest Home, our mission is to provide exceptional real
                 estate services that exceed our clients' expectations. We strive
                 to build lasting relationships based on trust, integrity, and
                 results.
@@ -135,7 +135,7 @@ const AboutPage: React.FC = () => {
               {
                 year: "2011",
                 title: "Our Founding",
-                desc: "Crest Homes was founded with a vision to transform real estate through personalized service.",
+                desc: "Crest Home was founded with a vision to transform real estate through personalized service.",
                 bg: "bg-primary-700",
                 img: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
                 reverse: false,
@@ -159,7 +159,7 @@ const AboutPage: React.FC = () => {
               {
                 year: "Today",
                 title: "Industry Leaders",
-                desc: "Crest Homes is recognized for service, expertise, and innovation.",
+                desc: "Crest Home is recognized for service, expertise, and innovation.",
                 bg: "bg-primary-700",
                 img: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg",
                 reverse: true,

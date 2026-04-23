@@ -17,7 +17,7 @@ const steps = [
     number: 3,
     title: "Connect with a Local Agent",
     description:
-      "Our experienced and friendly real estate agents are ready to guide you through the entire process. They'll answer your questions, provide neighborhood insights, and give expert advice to help you make an informed decision. With Crest Homes, you're never on your own.",
+      "Our experienced and friendly real estate agents are ready to guide you through the entire process. They'll answer your questions, provide neighborhood insights, and give expert advice to help you make an informed decision. With Crest Home, you're never on your own.",
     image: "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
@@ -45,7 +45,7 @@ const steps = [
     number: 7,
     title: "Move Into Your New Home",
     description:
-      "Congratulations! After closing, we’ll help you transition into your new space with helpful move-in checklists, utility setup guidance, and post-move support. At Crest Homes, our relationship doesn’t end at the sale—it’s just the beginning of your next chapter.",
+      "Congratulations! After closing, we’ll help you transition into your new space with helpful move-in checklists, utility setup guidance, and post-move support. At Crest Home, our relationship doesn’t end at the sale—it’s just the beginning of your next chapter.",
     image: "https://images.unsplash.com/photo-1592595896551-12b371d546d5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHx8MA%3D%3D",
   },
 ];

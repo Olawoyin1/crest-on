@@ -1,34 +1,24 @@
 
 const services = [
   {
-    name: "Commercial and Strategic Asset Management",
-    description: "Maximize the value and efficiency of your commercial assets with our expert management services. We offer tailored strategies that ensure sustained growth and increased returns in the competitive real estate market. Let us handle the complexities while you enjoy seamless management.",
-    imageUrl: "https://images.unsplash.com/photo-1531835551805-16d864c8d311", 
+    name: "Property Management",
+    description: "We take the stress out of managing your property. From day-to-day operations to long-term strategy, our team handles everything so you can enjoy the returns without the hassle.",
+    imageUrl: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
   },
   {
-    name: "Residential Asset Management",
-    description: "We help you optimize your residential properties, ensuring maximum returns and tenant satisfaction. With our focused management, we take care of every detail, from maintenance to tenant relations, ensuring a smooth experience for both owners and residents.",
-    imageUrl: "https://images.unsplash.com/photo-1493809842364-78817add7ffb", 
+    name: "Viewings and Sourcing",
+    description: "We source the right properties and arrange viewings tailored to your needs. Whether you're a buyer, investor, or tenant, we match you with the best options on the market.",
+    imageUrl: "https://images.unsplash.com/photo-1531835551805-16d864c8d311",
   },
   {
-    name: "Network Estate Management",
-    description: "Comprehensive management for your network of estates, focusing on efficiency and long-term growth. Our services span across multiple properties, ensuring that each estate is properly maintained and that operations are optimized for maximum profitability.",
-    imageUrl: "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83", 
+    name: "Tenant Find and Management",
+    description: "We find reliable, vetted tenants for your property and manage the entire relationship — from referencing and contracts to ongoing communication and renewals.",
+    imageUrl: "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83",
   },
   {
-    name: "Property Investment Advisory",
-    description: "Guiding your investment decisions with in-depth market analysis and expert insights. We provide detailed recommendations on where to invest, considering the latest trends and potential returns. Trust us to help you build a lucrative property portfolio.",
-    imageUrl: "https://images.unsplash.com/photo-1493809842364-78817add7ffb", 
-  },
-  {
-    name: "Property Leasing and Tenant Management",
-    description: "Ensure a smooth leasing process and efficient tenant management for your properties. Our services cover everything from finding tenants to handling rent collection and maintenance requests, creating a stress-free experience for both landlords and tenants.",
-    imageUrl: "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83", 
-  },
-  {
-    name: "Facility Management and Maintenance",
-    description: "Comprehensive services to maintain and manage your property, ensuring a seamless experience. Our team provides regular maintenance, emergency repairs, and management of all facilities, allowing you to focus on your core business without worrying about property issues.",
-    imageUrl: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267", 
+    name: "Property Repairs and Renovations",
+    description: "Our trusted network of contractors handles everything from minor repairs to full renovations. We ensure quality workmanship, fair pricing, and minimal disruption to your tenants.",
+    imageUrl: "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
   },
 ];
 
@@ -41,7 +31,7 @@ const Services = () => {
       <p className="text-gray-600  mb-10  mx-auto">
           Explore the wide range of real estate services we offer to help you at every stage of your journey.
         </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {services.map((service, index) => (
           <div
             key={index}

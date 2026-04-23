@@ -21,10 +21,10 @@ const Hero: React.FC = () => {
       {/* Hero Content */}
       <div className="relative z-20 flex flex-col items-center justify-center min-h-[100vh] px-4 text-center">
         <h1 className="text-white text-2xl md:text-6xl max-w-4xl font-bold leading-tight">
-          Find Your Perfect Home with Crest Homes
+          Find Your Perfect Home with Crest Home
         </h1>
         <p className="text-white text-lg md:text-2xl mt-4 max-w-2xl">
-          Discover premium properties designed for comfort, elegance, and lasting value. Whether you're buying, selling, or investing, Crest Homes is your trusted partner in real estate.
+          Discover premium properties designed for comfort, elegance, and lasting value. Whether you're buying, selling, or investing, Crest Home is your trusted partner in real estate.
         </p>
         <button className="mt-6 px-6 py-3 bg-white text-black font-semibold rounded text-sm hover:bg-gray-200 transition">
           Browse Listings
