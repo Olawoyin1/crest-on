@@ -8,17 +8,17 @@ const services = [
   {
     name: "Viewings and Sourcing",
     description: "We source the right properties and arrange viewings tailored to your needs. Whether you're a buyer, investor, or tenant, we match you with the best options on the market.",
-    imageUrl: "https://images.unsplash.com/photo-1531835551805-16d864c8d311",
+    imageUrl: "/Images/serv2.jpeg",
   },
   {
     name: "Tenant Find and Management",
     description: "We find reliable, vetted tenants for your property and manage the entire relationship — from referencing and contracts to ongoing communication and renewals.",
-    imageUrl: "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83",
+    imageUrl: "/Images/serv3.jpeg",
   },
   {
     name: "Property Repairs and Renovations",
     description: "Our trusted network of contractors handles everything from minor repairs to full renovations. We ensure quality workmanship, fair pricing, and minimal disruption to your tenants.",
-    imageUrl: "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+    imageUrl: "/Images/serv4.jpeg",
   },
 ];
 
